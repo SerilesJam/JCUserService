@@ -7,6 +7,7 @@
 //
 
 #import "JCViewController.h"
+#import <JCMediatorProtocol+UserService.h>
 
 @interface JCViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)handleLogic:(id)sender {
+    id<UserService> userService = [[JCMediatorProtocol sharedInstance] provideUserService];
+    UIViewController *loginViewController = [userService loginViewController];
+    
+    [self presentViewController:loginViewController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
