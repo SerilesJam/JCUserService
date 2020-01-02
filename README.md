@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/JCUserService.svg?style=flat)](https://cocoapods.org/pods/JCUserService)
 [![Platform](https://img.shields.io/cocoapods/p/JCUserService.svg?style=flat)](https://cocoapods.org/pods/JCUserService)
 
-## Example
+## Examplee
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
