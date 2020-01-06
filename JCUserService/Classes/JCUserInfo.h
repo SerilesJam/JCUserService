@@ -6,8 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-#import "JCToolKit/JCToolKit.h"
+#import <JCToolKit/JCDefine.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

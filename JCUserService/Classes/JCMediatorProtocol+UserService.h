@@ -5,7 +5,9 @@
 //  Created by Jam Jia on 12/30/19.
 //
 
-#import "JCToolKit/JCToolKit.h"
+#import <UIKit/UIKit.h>
+#import <JCToolKit/JCMediatorProtocol.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		365BDC1F23C2C15B001055F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365BDC1D23C2C15B001055F0 /* Main.storyboard */; };
+		365BDC2423C2C15E001055F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365BDC2223C2C15E001055F0 /* LaunchScreen.storyboard */; };
+		365BDC3323C2C26C001055F0 /* JCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BDC3023C2C26B001055F0 /* JCAppDelegate.m */; };
+		365BDC3423C2C26C001055F0 /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BDC3223C2C26B001055F0 /* JCViewController.m */; };
+		365BDC3623C2C2FD001055F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BDC3523C2C2FC001055F0 /* main.m */; };
+		365BDC4323C2C5C7001055F0 /* JCUserService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC3C23C2C5C7001055F0 /* JCUserService.framework */; };
+		365BDC4423C2C5C7001055F0 /* JCUserService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC3C23C2C5C7001055F0 /* JCUserService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		365BDC5723C2C70D001055F0 /* JCUserService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 365BDC4D23C2C5F6001055F0 /* JCUserService.bundle */; };
+		365BDC5F23C2C7C1001055F0 /* ServiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5923C2C7C1001055F0 /* ServiceDemo.framework */; platformFilter = ios; };
+		365BDC6123C2C7C1001055F0 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5A23C2C7C1001055F0 /* YYCache.framework */; platformFilter = ios; };
+		365BDC6323C2C7C1001055F0 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5B23C2C7C1001055F0 /* YYModel.framework */; platformFilter = ios; };
+		365BDC6523C2C7C1001055F0 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5C23C2C7C1001055F0 /* AFNetworking.framework */; platformFilter = ios; };
+		365BDC6723C2C7C1001055F0 /* JCToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5D23C2C7C1001055F0 /* JCToolKit.framework */; platformFilter = ios; };
+		365BDC6923C2C7C1001055F0 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5E23C2C7C1001055F0 /* SAMKeychain.framework */; platformFilter = ios; };
+		365BDC6D23C2D119001055F0 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5C23C2C7C1001055F0 /* AFNetworking.framework */; };
+		365BDC6F23C2D119001055F0 /* JCToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5D23C2C7C1001055F0 /* JCToolKit.framework */; };
+		365BDC7123C2D119001055F0 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5E23C2C7C1001055F0 /* SAMKeychain.framework */; };
+		365BDC7323C2D119001055F0 /* ServiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5923C2C7C1001055F0 /* ServiceDemo.framework */; };
+		365BDC7523C2D119001055F0 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5A23C2C7C1001055F0 /* YYCache.framework */; };
+		365BDC7723C2D119001055F0 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365BDC5B23C2C7C1001055F0 /* YYModel.framework */; };
+		365BDC8223C2D319001055F0 /* JCMediatorProtocol+UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BDC7A23C2D318001055F0 /* JCMediatorProtocol+UserService.m */; };
+		365BDC8323C2D319001055F0 /* JCUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BDC7B23C2D318001055F0 /* JCUserInfo.m */; };
+		365BDC8423C2D319001055F0 /* JCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BDC7C23C2D318001055F0 /* JCLoginViewController.m */; };
+		365BDC8523C2D319001055F0 /* JCUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 365BDC7D23C2D319001055F0 /* JCUserService.m */; };
+		365BDC8623C2D319001055F0 /* JCUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 365BDC7E23C2D319001055F0 /* JCUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365BDC8723C2D319001055F0 /* JCMediatorProtocol+UserService.h in Headers */ = {isa = PBXBuildFile; fileRef = 365BDC7F23C2D319001055F0 /* JCMediatorProtocol+UserService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365BDC8823C2D319001055F0 /* JCLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 365BDC8023C2D319001055F0 /* JCLoginViewController.h */; };
+		365BDC8923C2D319001055F0 /* JCUserService.h in Headers */ = {isa = PBXBuildFile; fileRef = 365BDC8123C2D319001055F0 /* JCUserService.h */; };
+		365BDC8B23C2D361001055F0 /* JCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365BDC8A23C2D361001055F0 /* JCLoginViewController.xib */; };
+		365BDC9123C2D417001055F0 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365BDC9023C2D417001055F0 /* Image.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		365BDC4123C2C5C7001055F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 365BDC0923C2C15B001055F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365BDC3B23C2C5C7001055F0;
+			remoteInfo = "JCUserService iOS";
+		};
+		365BDC5523C2C706001055F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 365BDC0923C2C15B001055F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365BDC4C23C2C5F6001055F0;
+			remoteInfo = "JCUserService-JCUserService";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		365BDC4523C2C5C7001055F0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				365BDC4423C2C5C7001055F0 /* JCUserService.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		365BDC1123C2C15B001055F0 /* JCUserService Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JCUserService Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		365BDC1E23C2C15B001055F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		365BDC2323C2C15E001055F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		365BDC2523C2C15E001055F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365BDC2F23C2C26B001055F0 /* JCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCViewController.h; path = Example/JCUserService/JCViewController.h; sourceTree = SOURCE_ROOT; };
+		365BDC3023C2C26B001055F0 /* JCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCAppDelegate.m; path = Example/JCUserService/JCAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		365BDC3123C2C26B001055F0 /* JCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCAppDelegate.h; path = Example/JCUserService/JCAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		365BDC3223C2C26B001055F0 /* JCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCViewController.m; path = Example/JCUserService/JCViewController.m; sourceTree = SOURCE_ROOT; };
+		365BDC3523C2C2FC001055F0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/JCUserService/main.m; sourceTree = SOURCE_ROOT; };
+		365BDC3C23C2C5C7001055F0 /* JCUserService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCUserService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		365BDC3F23C2C5C7001055F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365BDC4D23C2C5F6001055F0 /* JCUserService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCUserService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		365BDC5323C2C6CB001055F0 /* ResourceBundle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Info.plist"; sourceTree = "<group>"; };
+		365BDC5923C2C7C1001055F0 /* ServiceDemo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceDemo.framework; path = Carthage/Build/iOS/ServiceDemo.framework; sourceTree = "<group>"; };
+		365BDC5A23C2C7C1001055F0 /* YYCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYCache.framework; path = Carthage/Build/iOS/YYCache.framework; sourceTree = "<group>"; };
+		365BDC5B23C2C7C1001055F0 /* YYModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYModel.framework; path = Carthage/Build/iOS/YYModel.framework; sourceTree = "<group>"; };
+		365BDC5C23C2C7C1001055F0 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		365BDC5D23C2C7C1001055F0 /* JCToolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JCToolKit.framework; path = Carthage/Build/iOS/JCToolKit.framework; sourceTree = "<group>"; };
+		365BDC5E23C2C7C1001055F0 /* SAMKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAMKeychain.framework; path = Carthage/Build/iOS/SAMKeychain.framework; sourceTree = "<group>"; };
+		365BDC7A23C2D318001055F0 /* JCMediatorProtocol+UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JCMediatorProtocol+UserService.m"; path = "JCUserService/Classes/JCMediatorProtocol+UserService.m"; sourceTree = SOURCE_ROOT; };
+		365BDC7B23C2D318001055F0 /* JCUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCUserInfo.m; path = JCUserService/Classes/JCUserInfo.m; sourceTree = SOURCE_ROOT; };
+		365BDC7C23C2D318001055F0 /* JCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCLoginViewController.m; path = JCUserService/Classes/JCLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		365BDC7D23C2D319001055F0 /* JCUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCUserService.m; path = JCUserService/Classes/JCUserService.m; sourceTree = SOURCE_ROOT; };
+		365BDC7E23C2D319001055F0 /* JCUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCUserInfo.h; path = JCUserService/Classes/JCUserInfo.h; sourceTree = SOURCE_ROOT; };
+		365BDC7F23C2D319001055F0 /* JCMediatorProtocol+UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JCMediatorProtocol+UserService.h"; path = "JCUserService/Classes/JCMediatorProtocol+UserService.h"; sourceTree = SOURCE_ROOT; };
+		365BDC8023C2D319001055F0 /* JCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCLoginViewController.h; path = JCUserService/Classes/JCLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		365BDC8123C2D319001055F0 /* JCUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCUserService.h; path = JCUserService/Classes/JCUserService.h; sourceTree = SOURCE_ROOT; };
+		365BDC8A23C2D361001055F0 /* JCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JCLoginViewController.xib; path = JCUserService/Assets/JCLoginViewController.xib; sourceTree = SOURCE_ROOT; };
+		365BDC9023C2D417001055F0 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = JCUserService/Assets/Image.xcassets; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365BDC0E23C2C15B001055F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BDC6F23C2D119001055F0 /* JCToolKit.framework in Frameworks */,
+				365BDC4323C2C5C7001055F0 /* JCUserService.framework in Frameworks */,
+				365BDC7123C2D119001055F0 /* SAMKeychain.framework in Frameworks */,
+				365BDC7723C2D119001055F0 /* YYModel.framework in Frameworks */,
+				365BDC7523C2D119001055F0 /* YYCache.framework in Frameworks */,
+				365BDC6D23C2D119001055F0 /* AFNetworking.framework in Frameworks */,
+				365BDC7323C2D119001055F0 /* ServiceDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BDC3923C2C5C7001055F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BDC5F23C2C7C1001055F0 /* ServiceDemo.framework in Frameworks */,
+				365BDC6523C2C7C1001055F0 /* AFNetworking.framework in Frameworks */,
+				365BDC6123C2C7C1001055F0 /* YYCache.framework in Frameworks */,
+				365BDC6323C2C7C1001055F0 /* YYModel.framework in Frameworks */,
+				365BDC6923C2C7C1001055F0 /* SAMKeychain.framework in Frameworks */,
+				365BDC6723C2C7C1001055F0 /* JCToolKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BDC4A23C2C5F6001055F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365BDC0823C2C15B001055F0 = {
+			isa = PBXGroup;
+			children = (
+				365BDC1323C2C15B001055F0 /* JCUserService Example */,
+				365BDC3D23C2C5C7001055F0 /* JCUserService iOS */,
+				365BDC1223C2C15B001055F0 /* Products */,
+				365BDC5823C2C7C0001055F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		365BDC1223C2C15B001055F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365BDC1123C2C15B001055F0 /* JCUserService Example.app */,
+				365BDC3C23C2C5C7001055F0 /* JCUserService.framework */,
+				365BDC4D23C2C5F6001055F0 /* JCUserService.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		365BDC1323C2C15B001055F0 /* JCUserService Example */ = {
+			isa = PBXGroup;
+			children = (
+				365BDC3123C2C26B001055F0 /* JCAppDelegate.h */,
+				365BDC3023C2C26B001055F0 /* JCAppDelegate.m */,
+				365BDC2F23C2C26B001055F0 /* JCViewController.h */,
+				365BDC3223C2C26B001055F0 /* JCViewController.m */,
+				365BDC1D23C2C15B001055F0 /* Main.storyboard */,
+				365BDC2223C2C15E001055F0 /* LaunchScreen.storyboard */,
+				365BDC2523C2C15E001055F0 /* Info.plist */,
+				365BDC3523C2C2FC001055F0 /* main.m */,
+			);
+			path = "JCUserService Example";
+			sourceTree = "<group>";
+		};
+		365BDC3D23C2C5C7001055F0 /* JCUserService iOS */ = {
+			isa = PBXGroup;
+			children = (
+				365BDC7E23C2D319001055F0 /* JCUserInfo.h */,
+				365BDC7B23C2D318001055F0 /* JCUserInfo.m */,
+				365BDC7F23C2D319001055F0 /* JCMediatorProtocol+UserService.h */,
+				365BDC7A23C2D318001055F0 /* JCMediatorProtocol+UserService.m */,
+				365BDC8123C2D319001055F0 /* JCUserService.h */,
+				365BDC7D23C2D319001055F0 /* JCUserService.m */,
+				365BDC8023C2D319001055F0 /* JCLoginViewController.h */,
+				365BDC7C23C2D318001055F0 /* JCLoginViewController.m */,
+				365BDC8A23C2D361001055F0 /* JCLoginViewController.xib */,
+				365BDC3F23C2C5C7001055F0 /* Info.plist */,
+				365BDC5323C2C6CB001055F0 /* ResourceBundle-Info.plist */,
+				365BDC9023C2D417001055F0 /* Image.xcassets */,
+			);
+			path = "JCUserService iOS";
+			sourceTree = "<group>";
+		};
+		365BDC5823C2C7C0001055F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				365BDC5C23C2C7C1001055F0 /* AFNetworking.framework */,
+				365BDC5D23C2C7C1001055F0 /* JCToolKit.framework */,
+				365BDC5E23C2C7C1001055F0 /* SAMKeychain.framework */,
+				365BDC5923C2C7C1001055F0 /* ServiceDemo.framework */,
+				365BDC5A23C2C7C1001055F0 /* YYCache.framework */,
+				365BDC5B23C2C7C1001055F0 /* YYModel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		365BDC3723C2C5C7001055F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BDC8623C2D319001055F0 /* JCUserInfo.h in Headers */,
+				365BDC8923C2D319001055F0 /* JCUserService.h in Headers */,
+				365BDC8823C2D319001055F0 /* JCLoginViewController.h in Headers */,
+				365BDC8723C2D319001055F0 /* JCMediatorProtocol+UserService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		365BDC1023C2C15B001055F0 /* JCUserService Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365BDC2A23C2C15E001055F0 /* Build configuration list for PBXNativeTarget "JCUserService Example" */;
+			buildPhases = (
+				365BDC0D23C2C15B001055F0 /* Sources */,
+				365BDC0E23C2C15B001055F0 /* Frameworks */,
+				365BDC0F23C2C15B001055F0 /* Resources */,
+				365BDC4523C2C5C7001055F0 /* Embed Frameworks */,
+				365BDC7923C2D12C001055F0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				365BDC4223C2C5C7001055F0 /* PBXTargetDependency */,
+			);
+			name = "JCUserService Example";
+			productName = "JCUserService Demo";
+			productReference = 365BDC1123C2C15B001055F0 /* JCUserService Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		365BDC3B23C2C5C7001055F0 /* JCUserService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365BDC4823C2C5C7001055F0 /* Build configuration list for PBXNativeTarget "JCUserService" */;
+			buildPhases = (
+				365BDC3723C2C5C7001055F0 /* Headers */,
+				365BDC3823C2C5C7001055F0 /* Sources */,
+				365BDC3923C2C5C7001055F0 /* Frameworks */,
+				365BDC3A23C2C5C7001055F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				365BDC5623C2C706001055F0 /* PBXTargetDependency */,
+			);
+			name = JCUserService;
+			productName = "JCUserService iOS";
+			productReference = 365BDC3C23C2C5C7001055F0 /* JCUserService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		365BDC4C23C2C5F6001055F0 /* JCUserService-JCUserService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365BDC5023C2C5F6001055F0 /* Build configuration list for PBXNativeTarget "JCUserService-JCUserService" */;
+			buildPhases = (
+				365BDC4923C2C5F6001055F0 /* Sources */,
+				365BDC4A23C2C5F6001055F0 /* Frameworks */,
+				365BDC4B23C2C5F6001055F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JCUserService-JCUserService";
+			productName = "JCUserService-JCUserService";
+			productReference = 365BDC4D23C2C5F6001055F0 /* JCUserService.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		365BDC0923C2C15B001055F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jam Jia";
+				TargetAttributes = {
+					365BDC1023C2C15B001055F0 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					365BDC3B23C2C5C7001055F0 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					365BDC4C23C2C5F6001055F0 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 365BDC0C23C2C15B001055F0 /* Build configuration list for PBXProject "JCUserService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 365BDC0823C2C15B001055F0;
+			productRefGroup = 365BDC1223C2C15B001055F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365BDC1023C2C15B001055F0 /* JCUserService Example */,
+				365BDC3B23C2C5C7001055F0 /* JCUserService */,
+				365BDC4C23C2C5F6001055F0 /* JCUserService-JCUserService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365BDC0F23C2C15B001055F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BDC2423C2C15E001055F0 /* LaunchScreen.storyboard in Resources */,
+				365BDC1F23C2C15B001055F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BDC3A23C2C5C7001055F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BDC5723C2C70D001055F0 /* JCUserService.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BDC4B23C2C5F6001055F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BDC8B23C2D361001055F0 /* JCLoginViewController.xib in Resources */,
+				365BDC9123C2D417001055F0 /* Image.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		365BDC7923C2D12C001055F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/JCUserService Example/input.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+				"$(SRCROOT)/JCUserService Example/output.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365BDC0D23C2C15B001055F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BDC3423C2C26C001055F0 /* JCViewController.m in Sources */,
+				365BDC3623C2C2FD001055F0 /* main.m in Sources */,
+				365BDC3323C2C26C001055F0 /* JCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BDC3823C2C5C7001055F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365BDC8423C2D319001055F0 /* JCLoginViewController.m in Sources */,
+				365BDC8223C2D319001055F0 /* JCMediatorProtocol+UserService.m in Sources */,
+				365BDC8323C2D319001055F0 /* JCUserInfo.m in Sources */,
+				365BDC8523C2D319001055F0 /* JCUserService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365BDC4923C2C5F6001055F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		365BDC4223C2C5C7001055F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365BDC3B23C2C5C7001055F0 /* JCUserService */;
+			targetProxy = 365BDC4123C2C5C7001055F0 /* PBXContainerItemProxy */;
+		};
+		365BDC5623C2C706001055F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365BDC4C23C2C5F6001055F0 /* JCUserService-JCUserService */;
+			targetProxy = 365BDC5523C2C706001055F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		365BDC1D23C2C15B001055F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				365BDC1E23C2C15B001055F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		365BDC2223C2C15E001055F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				365BDC2323C2C15E001055F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		365BDC2823C2C15E001055F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		365BDC2923C2C15E001055F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		365BDC2B23C2C15E001055F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"${BUILT_PRODUCTS_DIR}/JCUserService.framework",
+				);
+				INFOPLIST_FILE = "JCUserService Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "serisjam.JCUserService-Example";
+				PRODUCT_NAME = "JCUserService Example";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		365BDC2C23C2C15E001055F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"${BUILT_PRODUCTS_DIR}/JCUserService.framework",
+				);
+				INFOPLIST_FILE = "JCUserService Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "serisjam.JCUserService-Example";
+				PRODUCT_NAME = "JCUserService Example";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		365BDC4623C2C5C7001055F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "JCUserService iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = serisjam.JCUserService;
+				PRODUCT_NAME = JCUserService;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		365BDC4723C2C5C7001055F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "JCUserService iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = serisjam.JCUserService;
+				PRODUCT_NAME = JCUserService;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		365BDC5123C2C5F6001055F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "JCUserService iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = serisjam.JCUserService;
+				PRODUCT_NAME = JCUserService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		365BDC5223C2C5F6001055F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "JCUserService iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = serisjam.JCUserService;
+				PRODUCT_NAME = JCUserService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365BDC0C23C2C15B001055F0 /* Build configuration list for PBXProject "JCUserService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365BDC2823C2C15E001055F0 /* Debug */,
+				365BDC2923C2C15E001055F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365BDC2A23C2C15E001055F0 /* Build configuration list for PBXNativeTarget "JCUserService Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365BDC2B23C2C15E001055F0 /* Debug */,
+				365BDC2C23C2C15E001055F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365BDC4823C2C5C7001055F0 /* Build configuration list for PBXNativeTarget "JCUserService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365BDC4623C2C5C7001055F0 /* Debug */,
+				365BDC4723C2C5C7001055F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365BDC5023C2C5F6001055F0 /* Build configuration list for PBXNativeTarget "JCUserService-JCUserService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365BDC5123C2C5F6001055F0 /* Debug */,
+				365BDC5223C2C5F6001055F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 365BDC0923C2C15B001055F0 /* Project object */;
+}

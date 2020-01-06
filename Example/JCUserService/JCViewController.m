@@ -7,7 +7,7 @@
 //
 
 #import "JCViewController.h"
-#import <JCMediatorProtocol+UserService.h>
+#import <JCUserService/JCMediatorProtocol+UserService.h>
 
 @interface JCViewController ()
 

@@ -1,0 +1,6 @@
+github "AFNetworking/AFNetworking"
+github "ibireme/YYCache"
+github "ibireme/YYModel"
+github "soffes/SAMKeychain"
+github "SerilesJam/JCToolKit" "1.0.7"
+git "git@github.com:SerilesJam/ServiceDemo.git"

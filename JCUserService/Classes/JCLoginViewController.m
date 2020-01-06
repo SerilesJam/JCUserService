@@ -5,7 +5,7 @@
 //  Created by Jam Jia on 12/30/19.
 //
 
-#import "JCMediatorProtocl+ProductService.h"
+#import <ServiceDemo/JCMediatorProtocl+ProductService.h>
 #import "JCLoginViewController.h"
 
 @interface JCLoginViewController ()
