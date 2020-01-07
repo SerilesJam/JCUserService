@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JCUserService'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of JCUserService.'
 
 # This description is used to generate tags and improve search results.
@@ -37,5 +37,5 @@ TODO: Add long description of the pod here.
 
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'JCToolKit'
-  s.dependency 'ServiceDemo', '~> 0.1.0'
+  s.dependency 'ServiceDemo'
 end
