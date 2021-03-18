@@ -16,7 +16,7 @@
 @implementation JCUserService
 
 - (UIViewController *)loginViewController {
-    NSBundle *bundle = [NSBundle bundleWithPath:[jc_currentBundle pathForResource:[[jc_currentBundle infoDictionary] objectForKey:@"CFBundleName"] ofType:@"bundle"]];
+    NSBundle *bundle = [NSBundle bundleWithURL:[jc_currentBundle URLForResource:@"JCUserService" withExtension:@"bundle"]];
     
     JCLoginViewController *loginViewController = [[JCLoginViewController alloc] initWithNibName:@"JCLoginViewController" bundle:bundle];
     

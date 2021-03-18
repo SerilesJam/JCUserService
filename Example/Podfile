@@ -1,9 +1,12 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:SerilesJam/PrivateSpecs.git'
 
 platform :ios, '9.0'
 
-source 'https://github.com/CocoaPods/Specs.git'
-source 'git@github.com:SerilesJam/PrivateSpecs.git'
+install! 'cocoapods',
+         :disable_input_output_paths => true
+inhibit_all_warnings!
+use_modular_headers!
 
 target 'JCUserService_Example' do
   pod 'JCUserService', :path => '../'

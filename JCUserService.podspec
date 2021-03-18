@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JCUserService'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of JCUserService.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       JCUserService
                        DESC
 
   s.homepage         = 'https://github.com/serilesjam/JCUserService'

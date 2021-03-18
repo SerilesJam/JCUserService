@@ -7,12 +7,12 @@
 
 #import "JCMediatorProtocol+UserService.h"
 
-NSString * const kJCMediatorService = @"UserService";
+NSString * const kJCMediatorUserService = @"UserService";
 
 @implementation JCMediatorProtocol (UserService)
 
 - (id<UserService>)provideUserService {
-    return [self getServiceProvide:kJCMediatorService withProtocl:@protocol(UserService) shouldCacheService:YES];
+    return [self getServiceProvide:kJCMediatorUserService withProtocl:@protocol(UserService) shouldCacheService:YES];
 }
 
 @end

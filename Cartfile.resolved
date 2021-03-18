@@ -1,6 +1,6 @@
 github "AFNetworking/AFNetworking" "4.0.1"
 github "SerilesJam/JCToolKit" "1.0.9"
-github "SerilesJam/ServiceDemo" "0.2.0"
+github "SerilesJam/ServiceDemo" "0.3.0"
 github "ibireme/YYCache" "1.0.4"
 github "ibireme/YYModel" "1.0.4"
 github "soffes/SAMKeychain" "v1.5.3"

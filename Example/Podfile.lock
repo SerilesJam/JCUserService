@@ -87,7 +87,7 @@ PODS:
     - JCToolKit/JCCore
   - JCToolKit/JCUI/JCTagCollectionView (1.0.9):
     - JCToolKit/JCCore
-  - JCUserService (0.2.0):
+  - JCUserService (0.3.0):
     - JCToolKit
     - ServiceDemo
   - SAMKeychain (1.5.3)
@@ -128,13 +128,13 @@ SPEC CHECKSUMS:
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   JCToolKit: 87dc7aa5bbb02db2c7d045bd49544d484151e854
-  JCUserService: bf8580a402faf7215762e7e510e5d6da145304aa
+  JCUserService: 8df7ea385a128a6d6d38327f387466ceae7696f7
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   ServiceDemo: 2ea58e1e4730e06891248db3ceae7cef5f4e6e2a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: e242b3756c830c43251517c093878175cfd435e4
+PODFILE CHECKSUM: 6f4f1f70f9346a19b42a8fb886cc1556f192f67a
 
 COCOAPODS: 1.10.1
