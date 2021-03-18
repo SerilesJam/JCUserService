@@ -14,7 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Aspects (1.4.1)
   - Expecta (1.0.6)
   - "Expecta+Snapshots (3.1.1)":
     - Expecta (~> 1.0)
@@ -25,99 +24,74 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - JCToolKit (1.0.7):
-    - JCToolKit/JCCore (= 1.0.7)
-    - JCToolKit/JCDefine (= 1.0.7)
-    - JCToolKit/JCMediatorProtocol (= 1.0.7)
-    - JCToolKit/JCNetwork (= 1.0.7)
-    - JCToolKit/JCRouter (= 1.0.7)
-    - JCToolKit/JCUI (= 1.0.7)
-    - SAMKeychain
-  - JCToolKit/JCCore (1.0.7):
-    - JCToolKit/JCCore/Category (= 1.0.7)
-    - JCToolKit/JCCore/ExtendClasses (= 1.0.7)
+  - JCToolKit (1.0.8):
+    - JCToolKit/JCCore (= 1.0.8)
+    - JCToolKit/JCDefine (= 1.0.8)
+    - JCToolKit/JCMediatorProtocol (= 1.0.8)
+    - JCToolKit/JCNetwork (= 1.0.8)
+    - JCToolKit/JCRouter (= 1.0.8)
+    - JCToolKit/JCUI (= 1.0.8)
+  - JCToolKit/JCCore (1.0.8):
+    - JCToolKit/JCCore/Category (= 1.0.8)
+    - JCToolKit/JCCore/ExtendClasses (= 1.0.8)
     - JCToolKit/JCDefine
     - SAMKeychain
-  - JCToolKit/JCCore/Category (1.0.7):
+  - JCToolKit/JCCore/Category (1.0.8):
     - JCToolKit/JCDefine
     - SAMKeychain
-  - JCToolKit/JCCore/ExtendClasses (1.0.7):
+  - JCToolKit/JCCore/ExtendClasses (1.0.8):
     - JCToolKit/JCDefine
     - SAMKeychain
-  - JCToolKit/JCDefine (1.0.7):
-    - SAMKeychain
-  - JCToolKit/JCMediatorProtocol (1.0.7):
+  - JCToolKit/JCDefine (1.0.8)
+  - JCToolKit/JCMediatorProtocol (1.0.8):
     - JCToolKit/JCDefine
-    - SAMKeychain
-  - JCToolKit/JCNetwork (1.0.7):
+  - JCToolKit/JCNetwork (1.0.8):
     - AFNetworking
-    - Aspects
     - JCToolKit/JCCore
-    - JCToolKit/JCNetwork/Define (= 1.0.7)
-    - JCToolKit/JCNetwork/Handle (= 1.0.7)
-    - JCToolKit/JCNetwork/Products (= 1.0.7)
-    - JCToolKit/JCNetwork/Service (= 1.0.7)
-    - SAMKeychain
-    - SDWebImage
+    - JCToolKit/JCNetwork/Define (= 1.0.8)
+    - JCToolKit/JCNetwork/Handle (= 1.0.8)
+    - JCToolKit/JCNetwork/Products (= 1.0.8)
+    - JCToolKit/JCNetwork/Service (= 1.0.8)
     - YYCache
     - YYModel
-  - JCToolKit/JCNetwork/Define (1.0.7):
+  - JCToolKit/JCNetwork/Define (1.0.8):
     - AFNetworking
-    - Aspects
     - JCToolKit/JCCore
-    - SAMKeychain
-    - SDWebImage
     - YYCache
     - YYModel
-  - JCToolKit/JCNetwork/Handle (1.0.7):
+  - JCToolKit/JCNetwork/Handle (1.0.8):
     - AFNetworking
-    - Aspects
     - JCToolKit/JCCore
     - JCToolKit/JCNetwork/Products
-    - SAMKeychain
-    - SDWebImage
     - YYCache
     - YYModel
-  - JCToolKit/JCNetwork/Products (1.0.7):
+  - JCToolKit/JCNetwork/Products (1.0.8):
     - AFNetworking
-    - Aspects
     - JCToolKit/JCCore
     - JCToolKit/JCNetwork/Define
-    - SAMKeychain
-    - SDWebImage
     - YYCache
     - YYModel
-  - JCToolKit/JCNetwork/Service (1.0.7):
+  - JCToolKit/JCNetwork/Service (1.0.8):
     - AFNetworking
-    - Aspects
     - JCToolKit/JCCore
     - JCToolKit/JCNetwork/Handle
-    - SAMKeychain
-    - SDWebImage
     - YYCache
     - YYModel
-  - JCToolKit/JCRouter (1.0.7):
+  - JCToolKit/JCRouter (1.0.8):
     - JCToolKit/JCDefine
-    - SAMKeychain
-  - JCToolKit/JCUI (1.0.7):
+  - JCToolKit/JCUI (1.0.8):
     - JCToolKit/JCCore
-    - JCToolKit/JCUI/Category (= 1.0.7)
-    - JCToolKit/JCUI/JCTagCollectionView (= 1.0.7)
-    - SAMKeychain
-  - JCToolKit/JCUI/Category (1.0.7):
+    - JCToolKit/JCUI/Category (= 1.0.8)
+    - JCToolKit/JCUI/JCTagCollectionView (= 1.0.8)
+  - JCToolKit/JCUI/Category (1.0.8):
     - JCToolKit/JCCore
-    - SAMKeychain
-  - JCToolKit/JCUI/JCTagCollectionView (1.0.7):
+  - JCToolKit/JCUI/JCTagCollectionView (1.0.8):
     - JCToolKit/JCCore
-    - SAMKeychain
-  - JCUserService (0.1.0):
+  - JCUserService (0.2.0):
     - JCToolKit
-    - ServiceDemo (~> 0.1.0)
+    - ServiceDemo
   - SAMKeychain (1.5.3)
-  - SDWebImage (5.4.1):
-    - SDWebImage/Core (= 5.4.1)
-  - SDWebImage/Core (5.4.1)
-  - ServiceDemo (0.1.0):
+  - ServiceDemo (0.2.0):
     - JCToolKit
   - Specta (1.0.7)
   - YYCache (1.0.4)
@@ -135,13 +109,11 @@ SPEC REPOS:
     - ServiceDemo
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - Aspects
     - Expecta
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
     - JCToolKit
     - SAMKeychain
-    - SDWebImage
     - Specta
     - YYCache
     - YYModel
@@ -152,19 +124,17 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JCToolKit: 66995518a35e1ae3150d91cb9b1270d03788b7b3
-  JCUserService: fa2379bf4abe7d78a6d7cd7d45150e17979ae4e5
+  JCToolKit: f7ea134e5565b3b04a8711a58592df03a24d356d
+  JCUserService: bf8580a402faf7215762e7e510e5d6da145304aa
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  SDWebImage: 29c340dbdcef342bb13125553f4e19ce056b07a7
-  ServiceDemo: ec64c0bf6a87c29a7a7ba348fe7fe0c0b972412c
+  ServiceDemo: 2ea58e1e4730e06891248db3ceae7cef5f4e6e2a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: d45f65fc5dde8cfa151b411b41641d4c82ce6bb3
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.1
