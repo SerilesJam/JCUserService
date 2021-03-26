@@ -24,74 +24,74 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - JCToolKit (1.0.9):
-    - JCToolKit/JCCore (= 1.0.9)
-    - JCToolKit/JCDefine (= 1.0.9)
-    - JCToolKit/JCMediatorProtocol (= 1.0.9)
-    - JCToolKit/JCNetwork (= 1.0.9)
-    - JCToolKit/JCRouter (= 1.0.9)
-    - JCToolKit/JCUI (= 1.0.9)
-  - JCToolKit/JCCore (1.0.9):
-    - JCToolKit/JCCore/Category (= 1.0.9)
-    - JCToolKit/JCCore/ExtendClasses (= 1.0.9)
+  - JCToolKit (1.1.0):
+    - JCToolKit/JCCore (= 1.1.0)
+    - JCToolKit/JCDefine (= 1.1.0)
+    - JCToolKit/JCMediatorProtocol (= 1.1.0)
+    - JCToolKit/JCNetwork (= 1.1.0)
+    - JCToolKit/JCRouter (= 1.1.0)
+    - JCToolKit/JCUI (= 1.1.0)
+  - JCToolKit/JCCore (1.1.0):
+    - JCToolKit/JCCore/Category (= 1.1.0)
+    - JCToolKit/JCCore/ExtendClasses (= 1.1.0)
     - JCToolKit/JCDefine
     - SAMKeychain
-  - JCToolKit/JCCore/Category (1.0.9):
+  - JCToolKit/JCCore/Category (1.1.0):
     - JCToolKit/JCDefine
     - SAMKeychain
-  - JCToolKit/JCCore/ExtendClasses (1.0.9):
+  - JCToolKit/JCCore/ExtendClasses (1.1.0):
     - JCToolKit/JCDefine
     - SAMKeychain
-  - JCToolKit/JCDefine (1.0.9)
-  - JCToolKit/JCMediatorProtocol (1.0.9):
+  - JCToolKit/JCDefine (1.1.0)
+  - JCToolKit/JCMediatorProtocol (1.1.0):
     - JCToolKit/JCDefine
-  - JCToolKit/JCNetwork (1.0.9):
+  - JCToolKit/JCNetwork (1.1.0):
     - AFNetworking
     - JCToolKit/JCCore
-    - JCToolKit/JCNetwork/Define (= 1.0.9)
-    - JCToolKit/JCNetwork/Handle (= 1.0.9)
-    - JCToolKit/JCNetwork/Products (= 1.0.9)
-    - JCToolKit/JCNetwork/Service (= 1.0.9)
+    - JCToolKit/JCNetwork/Define (= 1.1.0)
+    - JCToolKit/JCNetwork/Handle (= 1.1.0)
+    - JCToolKit/JCNetwork/Products (= 1.1.0)
+    - JCToolKit/JCNetwork/Service (= 1.1.0)
     - YYCache
     - YYModel
-  - JCToolKit/JCNetwork/Define (1.0.9):
+  - JCToolKit/JCNetwork/Define (1.1.0):
     - AFNetworking
     - JCToolKit/JCCore
     - YYCache
     - YYModel
-  - JCToolKit/JCNetwork/Handle (1.0.9):
+  - JCToolKit/JCNetwork/Handle (1.1.0):
     - AFNetworking
     - JCToolKit/JCCore
     - JCToolKit/JCNetwork/Products
     - YYCache
     - YYModel
-  - JCToolKit/JCNetwork/Products (1.0.9):
+  - JCToolKit/JCNetwork/Products (1.1.0):
     - AFNetworking
     - JCToolKit/JCCore
     - JCToolKit/JCNetwork/Define
     - YYCache
     - YYModel
-  - JCToolKit/JCNetwork/Service (1.0.9):
+  - JCToolKit/JCNetwork/Service (1.1.0):
     - AFNetworking
     - JCToolKit/JCCore
     - JCToolKit/JCNetwork/Handle
     - YYCache
     - YYModel
-  - JCToolKit/JCRouter (1.0.9):
+  - JCToolKit/JCRouter (1.1.0):
     - JCToolKit/JCDefine
-  - JCToolKit/JCUI (1.0.9):
+  - JCToolKit/JCUI (1.1.0):
     - JCToolKit/JCCore
-    - JCToolKit/JCUI/Category (= 1.0.9)
-    - JCToolKit/JCUI/JCTagCollectionView (= 1.0.9)
-  - JCToolKit/JCUI/Category (1.0.9):
+    - JCToolKit/JCUI/Category (= 1.1.0)
+    - JCToolKit/JCUI/JCTagCollectionView (= 1.1.0)
+  - JCToolKit/JCUI/Category (1.1.0):
     - JCToolKit/JCCore
-  - JCToolKit/JCUI/JCTagCollectionView (1.0.9):
+  - JCToolKit/JCUI/JCTagCollectionView (1.1.0):
     - JCToolKit/JCCore
   - JCUserService (0.3.0):
     - JCToolKit
     - ServiceDemo
   - SAMKeychain (1.5.3)
-  - ServiceDemo (0.2.0):
+  - ServiceDemo (0.4.0):
     - JCToolKit
   - Specta (1.0.7)
   - YYCache (1.0.4)
@@ -127,10 +127,10 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JCToolKit: 87dc7aa5bbb02db2c7d045bd49544d484151e854
+  JCToolKit: 046b5e153998f7800a3ca4ae54ea7c04ba3d3fcf
   JCUserService: 8df7ea385a128a6d6d38327f387466ceae7696f7
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  ServiceDemo: 2ea58e1e4730e06891248db3ceae7cef5f4e6e2a
+  ServiceDemo: b6a679a3628e739355e36a3c5e4b2b98b6a3c36f
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30

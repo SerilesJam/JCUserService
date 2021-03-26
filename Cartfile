@@ -1,6 +1,2 @@
-git "git@github.com:SerilesJam/AFNetworking.git"
-git "git@github.com:SerilesJam/YYCache.git"
-git "git@github.com:SerilesJam/YYModel.git"
-git "git@github.com:SerilesJam/SAMKeychain.git"
-git "git@github.com:SerilesJam/JCToolKit.git"
+github "SerilesJam/JCToolKit"
 git "git@github.com:SerilesJam/ServiceDemo.git"

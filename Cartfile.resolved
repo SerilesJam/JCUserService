@@ -1,6 +1,6 @@
 github "SerilesJam/AFNetworking" "4.0.2"
 github "SerilesJam/JCToolKit" "1.1.0"
-github "SerilesJam/ServiceDemo" "0.4.0"
 github "SerilesJam/SAMKeychain" "v1.5.4"
+github "SerilesJam/ServiceDemo" "0.4.0"
 github "SerilesJam/YYCache" "1.0.5"
 github "SerilesJam/YYModel" "1.0.5"
