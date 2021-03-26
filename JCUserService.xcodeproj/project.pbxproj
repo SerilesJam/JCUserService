@@ -28,6 +28,7 @@
 		365BDC9123C2D417001055F0 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365BDC9023C2D417001055F0 /* Image.xcassets */; };
 		397181FB260D8DB80078CA21 /* JCUserService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 365BDC4D23C2C5F6001055F0 /* JCUserService.bundle */; };
 		39718210260D93020078CA21 /* ServiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397181C9260D8BAD0078CA21 /* ServiceDemo.framework */; };
+		397182AD260D9DAD0078CA21 /* ServiceDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 397182AC260D9DAD0078CA21 /* ServiceDemo.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		365BDC8A23C2D361001055F0 /* JCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JCLoginViewController.xib; path = JCUserService/Assets/JCLoginViewController.xib; sourceTree = SOURCE_ROOT; };
 		365BDC9023C2D417001055F0 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = JCUserService/Assets/Image.xcassets; sourceTree = SOURCE_ROOT; };
 		397181C9260D8BAD0078CA21 /* ServiceDemo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceDemo.framework; path = Carthage/Build/iOS/Static/ServiceDemo.framework; sourceTree = "<group>"; };
+		397182AC260D9DAD0078CA21 /* ServiceDemo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ServiceDemo.bundle; path = Carthage/Build/iOS/Static/ServiceDemo.framework/ServiceDemo.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				365BDC1323C2C15B001055F0 /* JCUserService Example */,
 				365BDC3D23C2C5C7001055F0 /* JCUserService iOS */,
+				397182AB260D9D7A0078CA21 /* Carthage Resource */,
 				365BDC1223C2C15B001055F0 /* Products */,
 				365BDC5823C2C7C0001055F0 /* Frameworks */,
 			);
@@ -172,6 +175,14 @@
 				365BDC5D23C2C7C1001055F0 /* JCToolKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		397182AB260D9D7A0078CA21 /* Carthage Resource */ = {
+			isa = PBXGroup;
+			children = (
+				397182AC260D9DAD0078CA21 /* ServiceDemo.bundle */,
+			);
+			name = "Carthage Resource";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397182AD260D9DAD0078CA21 /* ServiceDemo.bundle in Resources */,
 				397181FB260D8DB80078CA21 /* JCUserService.bundle in Resources */,
 				365BDC2423C2C15E001055F0 /* LaunchScreen.storyboard in Resources */,
 				365BDC1F23C2C15B001055F0 /* Main.storyboard in Resources */,
